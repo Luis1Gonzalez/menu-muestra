@@ -3,7 +3,7 @@ import Header from './shared/Header'
 
 export default function Core() {
   return (
-    <div>
+    <div  className="core-wrap">
         <Header />
     </div>
   )

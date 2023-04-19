@@ -4,7 +4,7 @@ function App() {
 
 
   return (
-    <div className="container">
+    <div className="app-wrap">
       <Core />
     </div>
   )

@@ -1,4 +1,30 @@
-.container{
-  background: rgb(213,211,193);
-  background: linear-gradient(90deg, rgba(213,211,193,1) 7%, rgba(164,159,129,1) 59%, rgba(121,105,86,0.888631090487239) 100%); 
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Acme', sans-serif;
+ }
+
+ .app-wrap{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+ }
+
+ .core-wrap{
+  background: #dedac3;
+  max-width: 640px;
+  min-width: 320px;
+ }
+
+ /* HEADER */
+.header-wrap{
+  height:200px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo{
+  height: 100%;
 }
