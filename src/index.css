@@ -13,8 +13,9 @@
 
  .core-wrap{
   background: #dedac3;
-  max-width: 640px;
-  min-width: 320px;
+width: 100%;
+max-width: 640px;
+min-width: 320px;
  }
 
  /* HEADER */
