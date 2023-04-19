@@ -1,11 +1,11 @@
-
+import Core from "./Core"
 
 function App() {
 
 
   return (
-    <div className="App">
-      <h1>Hola</h1>
+    <div className="container">
+      <Core />
     </div>
   )
 }
