@@ -1,31 +1,74 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: 'Acme', sans-serif;
- }
+}
 
- .app-wrap{
+.app-wrap {
   height: 100vh;
   display: flex;
   justify-content: center;
- }
-
- .core-wrap{
-  background: #dedac3;
-width: 100%;
-max-width: 640px;
-min-width: 320px;
- }
-
- /* HEADER */
-.header-wrap{
-  height:200px;
-  width:100%;
-  display: flex;
-  justify-content: center;
+  color: #515151
 }
 
-.header-logo{
+.core-wrap {
+  background: #dedac3;
+  width: 100%;
+  max-width: 640px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* HEADER */
+.header-wrap {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.header-logo {
   height: 100%;
+}
+
+.entrantes-wrap{
+  border: 2px solid #515151;
+  border-left:none;
+  border-right: none;
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  letter-spacing: .4rem;
+  color: #515151;
+}
+
+.menu-wrap{
+  border: 2px solid #515151;
+  border-left:none;
+  border-right: none;
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  letter-spacing: .4rem;
+  color: #515151;
+}
+
+
+.laCarta-wrap{
+  border: 2px solid #515151;
+  border-left:none;
+  border-right: none;
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  letter-spacing: .4rem;
+  color: #515151;
 }
