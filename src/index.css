@@ -179,18 +179,21 @@ color: rgb(110, 110, 250);
   letter-spacing: .4rem;
   color: #000;
   box-shadow: 0 3px 3px rgb(193, 91, 91);
-  text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
 
 .entrantes-wrap:hover{
   box-shadow: 5px 0px 7px rgb(120, 172, 245);
-  text-shadow: 0 3px 3px rgb(120, 172, 245);
 }
 
-.entrantes-wrap p{
+.entrantes-wrap > p:hover{
+  text-shadow: 0 3px 3px rgb(120, 172, 245);
+  }
+
+.entrantes-wrap > p{
 width: 100%;
 text-align: center;
 margin-bottom: 2rem;
+text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
 
 .entrante-map{
@@ -200,13 +203,22 @@ margin-bottom: 2rem;
 }
 
 .Entrantes-entrante{
-  height: 120px;
-  width: 120px;
-  margin:10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 .Entrantes-entrante img{
-  height: 100%;
-  width: 100%;
+  height: 120px;
+  width: 120px;
   border-radius: 100%;
+  margin-bottom: 1rem;
+  border: 4px solid #fff
+}
+
+.Entrantes-entrante p{
+font-size: .8rem;
+width: 150px;
+text-align: center;
 }
