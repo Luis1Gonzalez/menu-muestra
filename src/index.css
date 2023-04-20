@@ -35,26 +35,6 @@
   height: 100%;
 }
 
-.entrantes-wrap{
-  border: 2px solid #515151;
-  border-left:none;
-  border-right: none;
-  padding: 30px;
-  margin:.7rem 0;
-  display:flex;
-  justify-content: center;
-  font-size: 1.3rem;
-  letter-spacing: .4rem;
-  color: #000;
-  box-shadow: 0 3px 3px rgb(193, 91, 91);
-  text-shadow: 0 3px 3px rgb(193, 91, 91);
-}
-
-.entrantes-wrap:hover{
-  box-shadow: 5px 0px 7px rgb(120, 172, 245);
-  text-shadow: 0 3px 3px rgb(120, 172, 245);
-}
-
 .menu-wrap{
   border: 2px solid #515151;
   border-left:none;
@@ -62,6 +42,7 @@
   padding: 30px;
   margin:.7rem 0;
   display:flex;
+  flex-wrap: wrap;
   justify-content: center;
   font-size: 1.3rem;
   letter-spacing: .4rem;
@@ -82,6 +63,7 @@
   padding: 30px;
   margin:.7rem 0;
   display:flex;
+  flex-wrap: wrap;
   justify-content: center;
   font-size: 1.3rem;
   letter-spacing: .4rem;
@@ -102,6 +84,7 @@
   padding: 30px;
   margin:.7rem 0;
   display:flex;
+  flex-wrap: wrap;
   justify-content: center;
   font-size: 1.3rem;
   letter-spacing: .4rem;
@@ -114,7 +97,7 @@
   box-shadow: 5px 0px 7px rgb(120, 172, 245);
   text-shadow: 0 3px 3px rgb(120, 172, 245);
 }
-/* =================================================== */
+/* ==========================FOOTER========================= */
 
 .footer-wrap {
   height: 200px;
@@ -182,4 +165,48 @@ color: rgb(110, 110, 250);
   margin: .5rem 0;
 }
 
-/* ============================================= */
+/* =====================ENTRANTES======================== */
+.entrantes-wrap{
+  border: 2px solid #515151;
+  border-left:none;
+  border-right: none;
+  padding: 30px;
+  margin:.7rem 0;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  font-size: 1.3rem;
+  letter-spacing: .4rem;
+  color: #000;
+  box-shadow: 0 3px 3px rgb(193, 91, 91);
+  text-shadow: 0 3px 3px rgb(193, 91, 91);
+}
+
+.entrantes-wrap:hover{
+  box-shadow: 5px 0px 7px rgb(120, 172, 245);
+  text-shadow: 0 3px 3px rgb(120, 172, 245);
+}
+
+.entrantes-wrap p{
+width: 100%;
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.entrante-map{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Entrantes-entrante{
+  height: 120px;
+  width: 120px;
+  margin:10px 0;
+}
+
+.Entrantes-entrante img{
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
