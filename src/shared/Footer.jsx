@@ -19,9 +19,9 @@ export default function Footer() {
 
             <h5 className='title-contact'>Contactanos</h5>
 
-            <p className='contact'><span className='contact-icon'><FaMapMarkedAlt /></span><a href="https://goo.gl/maps/6m4XhJ5r3EGBHTsd9" target="_blank">Perú, Arequipa, Camaná Cercada Av. Camaná 1456</a></p>
-            <p className='contact'><span className='contact-icon'><BsFillTelephoneFill /></span><a href="tel:+51969516619">Telefono: 969516619</a></p>
-            <p className='contact'><span className='contact-icon'><IoMdMailUnread /></span><a href="mailto:zacariajavier020@gmail.com">Email: zacariajavier020@gmail.com</a></p>
+            <p className='contact'><span className='contact-icon'><FaMapMarkedAlt /></span><a href="https://goo.gl/maps/6m4XhJ5r3EGBHTsd9" target="_blank">C. de Sta. Orosia, 12, 50013 Zaragoza</a></p>
+            <p className='contact'><span className='contact-icon'><BsFillTelephoneFill /></span><a href="tel:+51969516619">Telefono: 979516619</a></p>
+            <p className='contact'><span className='contact-icon'><IoMdMailUnread /></span><a href="mailto:zacariajavier020@gmail.com">Email: administracion@laestancia.com</a></p>
 
             <div className='credits'>
                 <a href="https://www.luis1gonzalez.com" target="_blank">
