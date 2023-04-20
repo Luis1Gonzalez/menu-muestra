@@ -25,7 +25,7 @@ export default function Footer() {
 
             <div className='credits'>
                 <a href="https://www.luis1gonzalez.com" target="_blank">
-                <p>Copyright 2023 JZ Diseños&Muebles | Todos los derechos reservados</p>
+                <p>&copy; 2023 La Estancia Restaurant | Todos los derechos reservados</p>
                 <p>Desarrollado por https://www.luis1gonzalez.com</p>
                 </a>
             </div>

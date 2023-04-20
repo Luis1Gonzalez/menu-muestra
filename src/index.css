@@ -12,7 +12,8 @@
 }
 
 .core-wrap {
-  background: #dedac3;
+  background: rgb(213,211,193);
+  background: linear-gradient(90deg, rgba(213,211,193,1) 7%, rgba(164,159,129,1) 59%, rgba(121,105,86,0.888631090487239) 100%); ;
   width: 100%;
   max-width: 640px;
   min-width: 320px;
