@@ -50,6 +50,11 @@
   text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
 
+.entrantes-wrap:hover{
+  box-shadow: 5px 0px 7px rgb(120, 172, 245);
+  text-shadow: 0 3px 3px rgb(120, 172, 245);
+}
+
 .menu-wrap{
   border: 2px solid #515151;
   border-left:none;
@@ -63,6 +68,11 @@
   color: #000;
   box-shadow: 0 3px 3px rgb(193, 91, 91);
   text-shadow: 0 3px 3px rgb(193, 91, 91);
+}
+
+.menu-wrap:hover{
+  box-shadow: 5px 0px 7px rgb(120, 172, 245);
+  text-shadow: 0 3px 3px rgb(120, 172, 245);
 }
 
 .laCarta-wrap{
@@ -80,6 +90,11 @@
   text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
 
+.laCarta-wrap:hover{
+  box-shadow: 5px 0px 7px rgb(120, 172, 245);
+  text-shadow: 0 3px 3px rgb(120, 172, 245);
+}
+
 .bebidas-wrap{
   border: 2px solid #515151;
   border-left:none;
@@ -93,6 +108,11 @@
   color: #000;
   box-shadow: 0 3px 3px rgb(193, 91, 91);
   text-shadow: 0 3px 3px rgb(193, 91, 91);
+}
+
+.bebidas-wrap:hover{
+  box-shadow: 5px 0px 7px rgb(120, 172, 245);
+  text-shadow: 0 3px 3px rgb(120, 172, 245);
 }
 /* =================================================== */
 
