@@ -8,7 +8,7 @@
 .app-wrap {
   display: flex;
   justify-content: center;
-  color: #515151
+  color: #000
 }
 
 .core-wrap {
@@ -28,7 +28,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 25px 0;
+  margin: 10px 0;
 }
 
 .header-logo {
@@ -45,7 +45,7 @@
   justify-content: center;
   font-size: 1.3rem;
   letter-spacing: .4rem;
-  color: #515151;
+  color: #000;
   box-shadow: 0 3px 3px rgb(193, 91, 91);
   text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
@@ -60,7 +60,7 @@
   justify-content: center;
   font-size: 1.3rem;
   letter-spacing: .4rem;
-  color: #515151;
+  color: #000;
   box-shadow: 0 3px 3px rgb(193, 91, 91);
   text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
@@ -75,7 +75,7 @@
   justify-content: center;
   font-size: 1.3rem;
   letter-spacing: .4rem;
-  color: #515151;
+  color: #000;
   box-shadow: 0 3px 3px rgb(193, 91, 91);
   text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
@@ -90,7 +90,7 @@
   justify-content: center;
   font-size: 1.3rem;
   letter-spacing: .4rem;
-  color: #515151;
+  color: #000;
   box-shadow: 0 3px 3px rgb(193, 91, 91);
   text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
