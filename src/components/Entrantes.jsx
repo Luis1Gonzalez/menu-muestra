@@ -14,7 +14,7 @@ if(selectEntrantes === 'none'){
     setSelectEntrantes('none')
 }
 }
-
+console.log(selectEntrantes)
   return (
     <div className='entrantes-wrap'  onClick={ifEntrante}>
         <p>Entrantes</p>
