@@ -258,11 +258,15 @@ text-shadow: 0 3px 3px rgb(193, 91, 91);
 
 .wrap-img{
   width: 100%;
+  height:300px;
+  margin:20px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .menu-header-img{
-height:200px;
-margin:20px 0;
+height: 100%;
+
 }
 
 .menu-course-title{
