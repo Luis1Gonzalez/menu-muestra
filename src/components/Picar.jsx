@@ -16,11 +16,11 @@ if(selectPicar === 'none'){
 }
 
   return (
-    <div className='Picar-wrap'  onClick={ifPicar}>
+    <div className='picar-wrap'  onClick={ifPicar}>
         <p>Para Picar</p>
         <div className='pic-map'>
         {menuParaPicar.map(pic => (
-            <div className='Picar-pic' style={{display:`${selectPicar}`}} key={pic.id}>
+            <div className='picar-pic' style={{display:`${selectPicar}`}} key={pic.id}>
                 
                 <div className='wrap-div-img'>
                 <img src={pic.image} alt={`imagen del plato ${pic.name}`} />
