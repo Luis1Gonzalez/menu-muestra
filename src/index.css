@@ -35,26 +35,7 @@
   height: 100%;
 }
 
-.menu-wrap{
-  border: 2px solid #515151;
-  border-left:none;
-  border-right: none;
-  padding: 30px;
-  margin:.7rem 0;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 1.3rem;
-  letter-spacing: .4rem;
-  color: #000;
-  box-shadow: 0 3px 3px rgb(193, 91, 91);
-  text-shadow: 0 3px 3px rgb(193, 91, 91);
-}
 
-.menu-wrap:hover{
-  box-shadow: 5px 0px 7px rgb(120, 172, 245);
-  text-shadow: 0 3px 3px rgb(120, 172, 245);
-}
 
 .laCarta-wrap{
   border: 2px solid #515151;
@@ -165,8 +146,8 @@ color: rgb(110, 110, 250);
   margin: .5rem 0;
 }
 
-/* =====================ENTRANTES======================== */
-.entrantes-wrap{
+/* =====================Picar======================== */
+.Picar-wrap{
   border: 2px solid #515151;
   border-left:none;
   border-right: none;
@@ -181,29 +162,29 @@ color: rgb(110, 110, 250);
   box-shadow: 0 3px 3px rgb(193, 91, 91);
 }
 
-.entrantes-wrap:hover{
+.Picar-wrap:hover{
   box-shadow: 5px 0px 7px rgb(120, 172, 245);
 }
 
-.entrantes-wrap > p:hover{
+.Picar-wrap > p:hover{
   text-shadow: 0 3px 3px rgb(120, 172, 245);
   }
 
-.entrantes-wrap > p{
+.Picar-wrap > p{
 width: 100%;
 text-align: center;
 /* margin-bottom: 1rem; */
 text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
 
-.entrante-map{
+.pic-map{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
 }
 
-.Entrantes-entrante{
+.Picar-pic{
   flex-direction: column;
   align-items: center;
   margin-top: 1rem;
@@ -218,7 +199,7 @@ text-shadow: 0 3px 3px rgb(193, 91, 91);
   margin: 10px 0;
 }
 
-.Entrantes-entrante img{
+.Picar-pic img{
   height: 100%;
   width: 100%;
   border-radius: 5%;
@@ -226,8 +207,36 @@ text-shadow: 0 3px 3px rgb(193, 91, 91);
   border: 4px solid #fff
 }
 
-.Entrantes-entrante p{
+.Picar-pic p{
 font-size: .75rem;
 width: 150px;
 text-align: center;
+}
+
+/* =====================Menu==================== */
+
+.menu-wrap{
+  border: 2px solid #515151;
+  border-left:none;
+  border-right: none;
+  padding: 30px 10px;
+  margin:.7rem 0;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.3rem;
+  letter-spacing: .4rem;
+  color: #000;
+  box-shadow: 0 3px 3px rgb(193, 91, 91);
+  text-shadow: 0 3px 3px rgb(193, 91, 91);
+}
+
+.menu-wrap:hover{
+  box-shadow: 5px 0px 7px rgb(120, 172, 245);
+  text-shadow: 0 3px 3px rgb(120, 172, 245);
+}
+
+.menu-header-img{
+height:200px;
+margin:20px 0;
 }

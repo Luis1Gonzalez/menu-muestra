@@ -1,5 +1,5 @@
 import { createContext } from 'react'
-import { menuEntrantes } from '../data/sections'
+import { menuParaPicar } from '../data/sections'
 
 const CatalogueContext = createContext()
 
@@ -9,7 +9,7 @@ const CatalogueProvider = ({ children }) => {
     return (
         <CatalogueContext.Provider
             value={{
-                menuEntrantes
+                menuParaPicar
             }}
         >
             {children}

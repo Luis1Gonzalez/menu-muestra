@@ -1,7 +1,7 @@
 import React from 'react'
 import { CatalogueProvider } from './context/CatalogoProvider'
 import Header from './shared/Header'
-import Entrantes from './components/Entrantes'
+import Entrantes from './components/Picar'
 import Menu from './components/Menu'
 import LaCarta from './components/LaCarta'
 import Footer from './shared/Footer'
