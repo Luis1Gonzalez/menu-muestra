@@ -1,5 +1,6 @@
 import React from 'react'
 import useCatalogue from "../hooks/useCatalogue"
+import pizzasGif from '../assets/pizzas.gif'
 
 export default function Hamburgers() {
 
@@ -11,41 +12,40 @@ export default function Hamburgers() {
     setSelectCarta,
     setSelectBebidas,
     setSelectHamburgers
-} = useCatalogue()
+  } = useCatalogue()
 
-const ifHamburgers = () => {
+  const ifHamburgers = () => {
     if (selectHamburgers === 'none') {
       setSelectHamburgers('flex')
-        setSelectPizzas('none')
-        setSelectPicar('none')
-        setSelectMenu('none')
-        setSelectCarta('none')
-        setSelectBebidas('none')
+      setSelectPizzas('none')
+      setSelectPicar('none')
+      setSelectMenu('none')
+      setSelectCarta('none')
+      setSelectBebidas('none')
     } else {
-        setSelectHamburgers('none')
+      setSelectHamburgers('none')
     }
-}
+  }
 
   return (
     <div className='hamburgers-wrap' onClick={ifHamburgers}>
-    <p>Hamburguesas</p>
+      <p>Hamburguesas</p>
 
-    <div className='wrap-hamburgers' style={{ display: `${selectHamburgers}` }}>
+      <div className='wrap-hamburgers' style={{ display: `${selectHamburgers}` }}>
         <ol className='hamburgers-hamburger-list'>
-            <li>Margarita</li>
-            <li>Cuatro Quesos</li>
-            <li>Napolitana o Romana</li>
-            <li>Diávola</li>
-            <li>Barbacoa</li>
-            <li>Cuatro Estaciones</li>
-            <li>Carbonara</li>
-            <li>Funghi</li>
-            <li>Calzona</li>
+          <li>Original Burger <span>8€</span></li>
+          <li>Smoke Trufada <span>12€</span></li>
+          <li>Rahnchera <span>10€</span></li>
+          <li>Mixta <span>11€</span></li>
+          <li>Pulled Pork <span>10€</span></li>
+          <li>Veggie <span>12€</span></li>
+          <li>Pollo Gourmet <span>12€</span></li>
+          <li>Club House <span>8€</span></li>
         </ol>
 
+      </div>
+
+
     </div>
-
-
-</div>
   )
 }

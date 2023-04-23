@@ -1,5 +1,6 @@
 import React from 'react'
 import useCatalogue from "../hooks/useCatalogue"
+import pizzasGif from '../assets/pizzas.gif'
 
 export default function Pizzas() {
 
@@ -29,6 +30,10 @@ export default function Pizzas() {
   return (
     <div className='pizzas-wrap' onClick={ifPizzas}>
     <p>Pizzas</p>
+
+    <div className='wrap-gif'>
+        <img className='img-pizza-gif' src={pizzasGif} alt="gif de pizzas" />
+    </div>
 
     <div className='wrap-pizza' style={{ display: `${selectPizzas}` }}>
         <ol className='pizzas-pizza-list'>
