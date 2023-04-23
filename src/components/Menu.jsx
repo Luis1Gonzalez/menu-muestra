@@ -31,10 +31,10 @@ if(selectMenu === 'none'){
 
                 <p className='menu-course-title'>Segundo PLato</p>
                 <ol className='menu-course-list'>
-                    <li>Risoto</li>
-                    <li>Ensalada Olivier</li>
-                    <li>Ensalada Cesar</li>
-                    <li>Espagueti Carbonara</li>
+                    <li>Codillo de Cerdo al Horno</li>
+                    <li>Hamburguesa de Ternasco</li>
+                    <li>Merluza a la Riojana</li>
+                    <li>Pulpo a la plancha</li>
                 </ol>
 
                 <p className='menu-course-title'>Postre</p>
@@ -47,7 +47,6 @@ if(selectMenu === 'none'){
                 
             </div>
 
-            
 
         </div>
     )
