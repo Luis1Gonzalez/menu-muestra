@@ -9,6 +9,7 @@ import Bebidas from './components/Bebidas'
 import Select from './components/Select'
 import Pizzas from './components/Pizzas'
 import Hamburgers from './components/Hamburgers'
+import Presentation from './components/Presentation'
 
 export default function Core() {
     return (
@@ -17,6 +18,7 @@ export default function Core() {
                 <Header />
                 <Select />
                 <Picar />
+                <Presentation />
                 <Menu />
                 <LaCarta />
                 <Pizzas />
