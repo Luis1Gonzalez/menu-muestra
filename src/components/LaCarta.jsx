@@ -46,7 +46,7 @@ export default function LaCarta() {
                     <li>Ensalada Campera <span>7€</span></li>
                     <li>Ensalada Capressa <span>7€</span></li>
                     <li>Ensalada Cesar <span>7€</span></li>
-                    <li>Ensalada de Gambas con Salsa<span>8€</span></li>
+                    <li>Ensalada de Gambas<span>8€</span></li>
                     <li>Ensalada Griega <span>7€</span></li>
                     <li>Ensalada Olivier <span>8€</span></li>
                 </ol>
