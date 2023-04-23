@@ -430,3 +430,113 @@ li>span {
 .select-time span{
   font-size: 2.5rem;
 }
+
+/* ======================Pizzas========================= */
+
+.pizzas-wrap {
+  border: 2px solid #515151;
+  border-left: none;
+  border-right: none;
+  padding: 30px 10px;
+  margin: .7rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.6rem;
+  letter-spacing: .4rem;
+  color: #000;
+  box-shadow: 0 3px 3px rgb(193, 91, 91);
+}
+
+.pizzas-wrap>p {
+  text-shadow: 0 3px 3px rgb(193, 91, 91);
+  width: 100%;
+  text-align: center;
+}
+
+.pizzas-wrap:hover {
+  box-shadow: 5px 0px 7px rgb(120, 172, 245);
+}
+
+.pizzas-wrap>p:hover {
+  text-shadow: 0 3px 3px rgb(120, 172, 245);
+}
+
+.wrap-pizzas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.pizzas-pizza-list {
+  all: unset;
+  font-size: 1rem;
+  display: inline-block;
+  width: 100%;
+  color: #343333;
+  font-style: italic;
+  text-align: center;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.pizzas-pizza-list li:nth-child(even) {
+  margin: 20px 0;
+}
+
+/* ======================Hamburgers========================= */
+
+.hamburgers-wrap {
+  border: 2px solid #515151;
+  border-left: none;
+  border-right: none;
+  padding: 30px 10px;
+  margin: .7rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.6rem;
+  letter-spacing: .4rem;
+  color: #000;
+  box-shadow: 0 3px 3px rgb(193, 91, 91);
+}
+
+.hamburgers-wrap>p {
+  text-shadow: 0 3px 3px rgb(193, 91, 91);
+  width: 100%;
+  text-align: center;
+}
+
+.hamburgers-wrap:hover {
+  box-shadow: 5px 0px 7px rgb(120, 172, 245);
+}
+
+.hamburgers-wrap>p:hover {
+  text-shadow: 0 3px 3px rgb(120, 172, 245);
+}
+
+.wrap-hamburgers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.hamburgers-hamburger-list {
+  all: unset;
+  font-size: 1rem;
+  display: inline-block;
+  width: 100%;
+  color: #343333;
+  font-style: italic;
+  text-align: center;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.hamburgers-hamburger-list li:nth-child(even) {
+  margin: 20px 0;
+}

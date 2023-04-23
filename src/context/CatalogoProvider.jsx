@@ -9,6 +9,8 @@ const CatalogueProvider = ({ children }) => {
     const [selectMenu, setSelectMenu] = useState('none')
     const [selectCarta, setSelectCarta] = useState('none')
     const [selectBebidas, setSelectBebidas] = useState('none')
+    const [selectPizzas, setSelectPizzas] = useState('none')
+    const [selectHamburgers, setSelectHamburgers] = useState('none')
 
     return (
         <CatalogueContext.Provider
@@ -21,7 +23,11 @@ const CatalogueProvider = ({ children }) => {
                 selectCarta,
                 setSelectCarta,
                 selectBebidas,
-                setSelectBebidas
+                setSelectBebidas,
+                selectPizzas,
+                setSelectPizzas,
+                selectHamburgers,
+                setSelectHamburgers
             }}
         >
             {children}

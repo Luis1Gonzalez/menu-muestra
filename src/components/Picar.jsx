@@ -8,7 +8,9 @@ export default function Picar() {
         setSelectPicar,
         setSelectMenu,
         setSelectCarta,
-        setSelectBebidas
+        setSelectBebidas,
+        setSelectPizzas,
+        setSelectHamburgers
     } = useCatalogue()
 
 
@@ -18,6 +20,8 @@ export default function Picar() {
             setSelectMenu('none')
             setSelectCarta('none')
             setSelectBebidas('none')
+            setSelectPizzas('none')
+            setSelectHamburgers('none')
         } else {
             setSelectPicar('none')
         }

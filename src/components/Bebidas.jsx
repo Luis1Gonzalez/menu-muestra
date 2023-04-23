@@ -8,7 +8,9 @@ export default function Bebidas() {
         setSelectMenu,
         setSelectCarta,
         selectBebidas,
-        setSelectBebidas
+        setSelectBebidas,
+        setSelectPizzas,
+        setSelectHamburgers
     } = useCatalogue()
 
     const ifBebidas = () => {
@@ -17,6 +19,8 @@ export default function Bebidas() {
             setSelectMenu('none')
             setSelectCarta('none')
             setSelectBebidas('flex')
+            setSelectPizzas('none')
+            setSelectHamburgers('none')
         } else {
             setSelectBebidas('none')
         }

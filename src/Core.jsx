@@ -7,6 +7,8 @@ import LaCarta from './components/LaCarta'
 import Footer from './shared/Footer'
 import Bebidas from './components/Bebidas'
 import Select from './components/Select'
+import Pizzas from './components/Pizzas'
+import Hamburgers from './components/Hamburgers'
 
 export default function Core() {
     return (
@@ -17,6 +19,8 @@ export default function Core() {
                 <Picar />
                 <Menu />
                 <LaCarta />
+                <Pizzas />
+                <Hamburgers />
                 <Bebidas />
                 <Footer />
             </CatalogueProvider>

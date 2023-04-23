@@ -8,7 +8,9 @@ export default function LaCarta() {
         setSelectMenu,
         selectCarta,
         setSelectCarta,
-        setSelectBebidas
+        setSelectBebidas,
+        setSelectPizzas,
+        setSelectHamburgers
     } = useCatalogue()
 
     const ifCarta = () => {
@@ -17,6 +19,8 @@ export default function LaCarta() {
             setSelectMenu('none')
             setSelectCarta('flex')
             setSelectBebidas('none')
+            setSelectPizzas('none')
+            setSelectHamburgers('none')
         } else {
             setSelectCarta('none')
         }
