@@ -1,6 +1,5 @@
 import React from 'react'
 import useCatalogue from "../hooks/useCatalogue"
-import pizzasGif from '../assets/pizzas.gif'
 
 export default function Hamburgers() {
 
@@ -11,7 +10,8 @@ export default function Hamburgers() {
     setSelectPizzas,
     setSelectCarta,
     setSelectBebidas,
-    setSelectHamburgers
+    setSelectHamburgers,
+    time
   } = useCatalogue()
 
   const ifHamburgers = () => {
@@ -26,26 +26,30 @@ export default function Hamburgers() {
       setSelectHamburgers('none')
     }
   }
-
   return (
-    <div className='hamburgers-wrap' onClick={ifHamburgers}>
-      <p>Hamburguesas</p>
 
-      <div className='wrap-hamburgers' style={{ display: `${selectHamburgers}` }}>
-        <ol className='hamburgers-hamburger-list'>
-          <li>Original Burger <span>8€</span></li>
-          <li>Smoke Trufada <span>12€</span></li>
-          <li>Rahnchera <span>10€</span></li>
-          <li>Mixta <span>11€</span></li>
-          <li>Pulled Pork <span>10€</span></li>
-          <li>Veggie <span>12€</span></li>
-          <li>Pollo Gourmet <span>12€</span></li>
-          <li>Club House <span>8€</span></li>
-        </ol>
+    <>
+      {time === 'night' ?
+        (
 
-      </div>
+          <div className='hamburgers-wrap' onClick={ifHamburgers}>
+            <p>Hamburguesas</p>
 
+            <div className='wrap-hamburgers' style={{ display: `${selectHamburgers}` }}>
+              <ol className='hamburgers-hamburger-list'>
+                <li>Original Burger <span>8€</span></li>
+                <li>Smoke Trufada <span>12€</span></li>
+                <li>Rahnchera <span>10€</span></li>
+                <li>Mixta <span>11€</span></li>
+                <li>Pulled Pork <span>10€</span></li>
+                <li>Veggie <span>12€</span></li>
+                <li>Pollo Gourmet <span>12€</span></li>
+                <li>Club House <span>8€</span></li>
+              </ol>
 
-    </div>
+            </div>
+          </div>
+        ) : ''}
+    </>
   )
 }

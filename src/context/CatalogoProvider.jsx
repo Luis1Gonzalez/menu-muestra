@@ -11,6 +11,7 @@ const CatalogueProvider = ({ children }) => {
     const [selectBebidas, setSelectBebidas] = useState('none')
     const [selectPizzas, setSelectPizzas] = useState('none')
     const [selectHamburgers, setSelectHamburgers] = useState('none')
+    const [time, setTime] = useState('')
 
     return (
         <CatalogueContext.Provider
@@ -27,7 +28,9 @@ const CatalogueProvider = ({ children }) => {
                 selectPizzas,
                 setSelectPizzas,
                 selectHamburgers,
-                setSelectHamburgers
+                setSelectHamburgers,
+                time,
+                setTime
             }}
         >
             {children}
