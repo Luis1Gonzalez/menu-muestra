@@ -130,7 +130,6 @@ color: rgb(110, 110, 250);
 .picar-wrap > p{
 width: 100%;
 text-align: center;
-/* margin-bottom: 1rem; */
 text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
 
@@ -190,6 +189,9 @@ text-align: center;
 
 .menu-wrap > p{
   text-shadow: 0 3px 3px rgb(193, 91, 91);
+  width: 100%;
+text-align: center;
+text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
 
 .menu-wrap:hover{
@@ -199,13 +201,6 @@ text-align: center;
 .menu-wrap > p:hover{
   text-shadow: 0 3px 3px rgb(120, 172, 245);
   }
-
-.menu-wrap > p{
-width: 100%;
-text-align: center;
-/* margin-bottom: 1rem; */
-text-shadow: 0 3px 3px rgb(193, 91, 91);
-}
 
 .wrap-course{
   display: flex;
@@ -269,6 +264,8 @@ height: 100%;
 
 .laCarta-wrap > p{
   text-shadow: 0 3px 3px rgb(193, 91, 91);
+  width: 100%;
+text-align: center;
 }
 
 .laCarta-wrap:hover{
@@ -278,13 +275,6 @@ height: 100%;
 .laCarta-wrap > p:hover{
   text-shadow: 0 3px 3px rgb(120, 172, 245);
   }
-
-.laCarta-wrap > p{
-width: 100%;
-text-align: center;
-/* margin-bottom: 1rem; */
-text-shadow: 0 3px 3px rgb(193, 91, 91);
-}
 
 .wrap-course{
   display: flex;
@@ -339,6 +329,9 @@ text-shadow: 0 3px 3px rgb(193, 91, 91);
 
 .bebidas-wrap > p{
   text-shadow: 0 3px 3px rgb(193, 91, 91);
+  width: 100%;
+text-align: center;
+text-shadow: 0 3px 3px rgb(193, 91, 91);
 }
 
 .bebidas-wrap:hover{
@@ -349,23 +342,10 @@ text-shadow: 0 3px 3px rgb(193, 91, 91);
   text-shadow: 0 3px 3px rgb(120, 172, 245);
   }
 
-.bebidas-wrap > p{
-width: 100%;
-text-align: center;
-margin-bottom: 2rem;
-text-shadow: 0 3px 3px rgb(193, 91, 91);
-}
-
 .wrap-bebida{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
-
-.bebidas-bebida-title{
-  text-align: center;
-  margin: 30px 0;
-  font-size: 1.3rem;
 }
 
 .bebidas-bebida-list{
@@ -374,7 +354,7 @@ text-shadow: 0 3px 3px rgb(193, 91, 91);
   font-size: 1rem;
   display: inline-block;
   width: 100%;
-  margin-bottom:25px;
+  margin:30px 0;
   color:#343333;
   font-style: italic;
   text-align: center;

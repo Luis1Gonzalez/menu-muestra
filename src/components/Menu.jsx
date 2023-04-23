@@ -1,24 +1,35 @@
 import React from 'react'
-import { useState } from 'react'
 import headerMenu from '../assets/menu/headerMenu.png'
+import useCatalogue from '../hooks/useCatalogue'
+
 
 export default function Menu() {
-    const [selectMenu, setSelectMenu] = useState('none')
 
-const ifMenu = () => {
-if(selectMenu === 'none'){
-    setSelectMenu('flex')
-}else{
-    setSelectMenu('none')
-}
-}
+    const {
+        setSelectPicar,
+        selectMenu,
+        setSelectMenu,
+        setSelectCarta,
+        setSelectBebidas
+    } = useCatalogue()
+
+    const ifMenu = () => {
+        if (selectMenu === 'none') {
+            setSelectPicar('none')
+            setSelectMenu('flex')
+            setSelectCarta('none')
+            setSelectBebidas('none')
+        } else {
+            setSelectMenu('none')
+        }
+    }
     return (
-        <div className='menu-wrap'   onClick={ifMenu}>
+        <div className='menu-wrap' onClick={ifMenu}>
             <p>Menú</p>
 
-            <div className='wrap-course'  style={{display:`${selectMenu}`}}>
+            <div className='wrap-course' style={{ display: `${selectMenu}` }}>
                 <div className='wrap-img'>
-                <img className='menu-header-img' src={headerMenu} alt="foto header menu" />
+                    <img className='menu-header-img' src={headerMenu} alt="foto header menu" />
                 </div>
 
                 <p className='menu-course-title'>Primer PLato</p>
@@ -44,7 +55,7 @@ if(selectMenu === 'none'){
                     <li>Panacota</li>
                     <li>Brownie con Helado</li>
                 </ol>
-                
+
             </div>
 
 
