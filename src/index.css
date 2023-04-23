@@ -364,3 +364,10 @@ text-shadow: 0 3px 3px rgb(193, 91, 91);
 .bebidas-bebida-list li:nth-child(even){
   margin: 20px 0;
 }
+
+li > span{
+  color:#000;
+  font-size: 1.2rem;
+  font-style: italic;
+  text-decoration: underline;
+}
